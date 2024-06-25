@@ -5,7 +5,10 @@ Arduino Library to facilitate I2C communication between Arduino and Renesas Gree
 Roadmap & Ideas of Potential Additions
 
 ### Additional Device Compatibility to Add:
-- TBD...
+- SLG46537
+- SLG46538
+- SLG46826
+- More TBD...
 
 
 ### Features to Add:
