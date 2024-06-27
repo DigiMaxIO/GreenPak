@@ -1,6 +1,6 @@
 // SLG46533.h
 
-#define GreenPAK				"SLG46533"
+#define SLG				"SLG46533"
 
 #define VIRTUAL_INPUTS			0xF4	// I2C Virtual Inputs
 
