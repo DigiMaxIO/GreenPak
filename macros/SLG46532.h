@@ -1,6 +1,6 @@
 // SLG46532.h
 
-#define GreenPAK				"SLG46532"
+#define SLG				"SLG46532"
 
 #define VIRTUAL_INPUTS			0xF4	// I2C Virtual Inputs
 
@@ -17,7 +17,7 @@
 #define CNT5_DATA				0xC3    // Counter data for CNT5
 #define CNT6_DATA				0xC4	// Counter data for CNT6
 
-// Counted value holds the current value of the GreenPAK's counters while it's counting
+// Counted value holds the current value of the SLG's counters while it's counting
 #define CNT0_0_VAL				0xEB	// Counted value for CNT0 LSByte
 #define CNT0_1_VAL				0xEC	// Counted value for CNT0 MSByte
 #define CNT1_0_VAL				0xEE	// Counted value for CNT1 LSByte
