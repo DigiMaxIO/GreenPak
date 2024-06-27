@@ -1,4 +1,4 @@
-# Silego-GreenPak Arduino Library
+# GreenPak Arduino Library
 Arduino Library to facilitate I2C communication between Arduino and Renesas GreenPAK devices. 
 
 ## Planned Developments
