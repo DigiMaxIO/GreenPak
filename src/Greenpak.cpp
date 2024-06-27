@@ -1,12 +1,12 @@
 /*
-	Silego.h - Silego library for GreenPAK5 I2C commands.
+	Greenpak.h - Greenpak library for GreenPAK5 I2C commands.
 	Copyright (c) 2016 David Riedell.  All right reserved.
 */
 
 #include "Arduino.h"
-#include "Silego.h"
+#include "Greenpak.h"
 
-Silego::Silego(int device_address) {
+Greenpak::Greenpak(int device_address) {
 	Wire.begin();
 	_device_address = device_address;
 }
@@ -14,14 +14,14 @@ Silego::Silego(int device_address) {
 
 /* ==================== I2C WRITE ==================== */
 
-void Silego::writeI2C(byte byte_address, byte data) {
+void Greenpak::writeI2C(byte byte_address, byte data) {
 	Wire.beginTransmission(_device_address);
 	Wire.write(byte_address);
 	Wire.write(data);
 	Wire.endTransmission();
 }
 
-void Silego::writeI2C(byte byte_address, bool data, byte bit_location) {
+void Greenpak::writeI2C(byte byte_address, bool data, byte bit_location) {
 	uint8_t value = 0;
 	uint8_t byte_data = readI2C(byte_address);
 	if (data == 0) {
@@ -33,7 +33,7 @@ void Silego::writeI2C(byte byte_address, bool data, byte bit_location) {
 	return;
 }
 
-void Silego::writeI2C(byte byte_address, byte data, byte bit_location, byte length) {
+void Greenpak::writeI2C(byte byte_address, byte data, byte bit_location, byte length) {
 	uint8_t value = 0;
 	uint8_t mask = 0xFF;
 	uint8_t i = 0;
@@ -56,7 +56,7 @@ void Silego::writeI2C(byte byte_address, byte data, byte bit_location, byte leng
 /* ==================== I2C READ ==================== */
 
 
-uint8_t Silego::readI2C(byte byte_address) {
+uint8_t Greenpak::readI2C(byte byte_address) {
 	uint8_t value;
 	Wire.beginTransmission(_device_address);
 	Wire.write(byte_address);
@@ -69,7 +69,7 @@ uint8_t Silego::readI2C(byte byte_address) {
 	return value;
 }
 
-bool Silego::readI2C(byte byte_address, byte bit_location) {
+bool Greenpak::readI2C(byte byte_address, byte bit_location) {
 	bool value = 0;
 	uint8_t byte_data = readI2C(byte_address, _device_address);
 	value = byte_data & bit_location;
