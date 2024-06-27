@@ -1,4 +1,4 @@
-Silego	KEYWORD1
-silego	KEYWORD1
+Greenpak	KEYWORD1
+greenpak	KEYWORD1
 writeI2C	KEYWORD2
 readI2C	KEYWORD2
