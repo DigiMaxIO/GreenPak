@@ -1,19 +1,19 @@
 /*
-	Silego.h - Silego library for Wiring - description
+	Greenpak.h - Greenpak library for Wiring - description
 	Copyright (c) 2016 David Riedell.  All right reserved.
 */
 
 // ensure this library description is only included once
-#ifndef Silego_h
-#define Silego_h
+#ifndef Greenpak_h
+#define Greenpak_h
 
 #include "Arduino.h"
 #include "Wire.h"
 
-class Silego {
+class Greenpak {
 	public:
-		// Silego - Creates a Silego class
-		Silego(int device_address);
+		// Greenpak - Creates a Greenpak class
+		Greenpak(int device_address);
 		
 		// writeI2C - Writes data to GreenPAK register byte_address
 		void writeI2C(byte byte_address, byte data);
