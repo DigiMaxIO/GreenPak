@@ -2,7 +2,7 @@
 Arduino Library to facilitate I2C communication between Arduino and Renesas GreenPAK devices. 
 
 ## Planned Developments
-Roadmap & Ideas of Potential Additions
+Roadmap & Ideas of Potential Additions. 
 
 ### Additional Device Compatibility to Add:
 - SLG46537
@@ -27,6 +27,9 @@ Roadmap & Ideas of Potential Additions
 - [ERM Haptics](https://www.renesas.com/us/en/products/programmable-mixed-signal-asic-ip-products/greenpak-programmable-mixed-signal-products/greenpak-solutions/eccentric-rotating-mass-motor-control)
 - [LCD Driver](https://www.renesas.com/us/en/products/programmable-mixed-signal-asic-ip-products/greenpak-programmable-mixed-signal-products/greenpak-solutions/lcd-driver)
 
+
+### Companion Projects
+Planning to add companion projects for the examples for the Go Configure software that you can program your GreenPak parts with.
 
 ---
 
