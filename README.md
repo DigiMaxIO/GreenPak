@@ -22,7 +22,7 @@ Roadmap & Ideas of Potential Additions.
 
 
 ### Example Projects to Add:
-- I2C/1-Wire GPIO Exander [SLG4IOEXP-DMO](https://www.renesas.com/us/en/products/programmable-mixed-signal-asic-ip-products/greenpak-programmable-mixed-signal-products/greenpak-asynchronous-state-machine/slg4ioexp-dmo-greenpak-gpio-expander-demonstration-board) - [Extra Link](https://www.renesas.com/us/en/products/programmable-mixed-signal-asic-ip-products/greenpak-programmable-mixed-signal-products/greenpak-solutions/gpio-expander)  
+- I2C GPIO Exander [SLG4IOEXP-DMO](https://www.renesas.com/us/en/products/programmable-mixed-signal-asic-ip-products/greenpak-programmable-mixed-signal-products/greenpak-asynchronous-state-machine/slg4ioexp-dmo-greenpak-gpio-expander-demonstration-board) - [Extra Link](https://www.renesas.com/us/en/products/programmable-mixed-signal-asic-ip-products/greenpak-programmable-mixed-signal-products/greenpak-solutions/gpio-expander)  
 - I2C Keypad Matrix Scanner [SLG4KPDSC-DMO](https://www.renesas.com/us/en/products/programmable-mixed-signal-asic-ip-products/greenpak-programmable-mixed-signal-products/greenpak-asynchronous-state-machine/slg4kpdsc-dmo-greenpak-keypad-scanner-demonstration-board) - [Extra Link](https://www.renesas.com/us/en/products/programmable-mixed-signal-asic-ip-products/greenpak-programmable-mixed-signal-products/greenpak-solutions/keypad-scanner)
 - [ERM Haptics](https://www.renesas.com/us/en/products/programmable-mixed-signal-asic-ip-products/greenpak-programmable-mixed-signal-products/greenpak-solutions/eccentric-rotating-mass-motor-control)
 - [LCD Driver](https://www.renesas.com/us/en/products/programmable-mixed-signal-asic-ip-products/greenpak-programmable-mixed-signal-products/greenpak-solutions/lcd-driver)
